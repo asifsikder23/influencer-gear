@@ -4,6 +4,7 @@ body{
     margin: 0%;
 }
 /* Navigation Section */
+/* Header section */
 header{
     margin: 50px 120px;
     padding-bottom: 50px;
@@ -78,16 +79,15 @@ header{
 /* banner section end */
 /* company logo */
 
-.company-logo{
+/* company logo */
+.logos {
+    width: 100%;
     display: flex;
     justify-content: center;
-    gap: 2%;
-    padding: 10px;
-    border-top: 1px solid rgb(223, 222, 222);
-    border-bottom: 1px solid rgb(223, 222, 222);
-    
-    margin-left: 165px;
-    margin-right: 165px;
+}
+
+.logos .logo {
+    padding: 0 30px;
 }
 /* company logo end */
 /* Collections */
